@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Acnú’s Esfirraria e Pizzaria - Esfirras, pizzas e fritos feitos com amor e qualidade. Faça seu pedido agora!">
+    <meta name="keywords" content="Esfirraria, Pizzaria, Esfirras abertas, Pizzas artesanais, Delivery de esfirras, Acnú’s">
+    <meta name="author" content="Acnú’s Esfirraria e Pizzaria">
+    <title>Acnú’s Esfirraria e Pizzaria | Sabor que Abraça Você!</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+        body { background-color: #fff8e1; color: #4a4a4a; }
+        header { background-color: #b71c1c; color: white; text-align: center; padding: 1em 0; }
+        header h1 { font-size: 2.5em; }
+        nav { background-color: #ff9800; padding: 0.5em; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        .container { padding: 20px; max-width: 1200px; margin: auto; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #d84315; margin-bottom: 10px; }
+        .btn { background-color: #b71c1c; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }
+        .btn:hover { background-color: #d84315; }
+        .cardapio-item { margin-bottom: 15px; padding: 10px; background-color: #fff3e0; border-radius: 5px; border-left: 5px solid #ff9800; }
+        .footer { background-color: #b71c1c; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+        .avaliacao { background-color: #fbe9e7; padding: 10px; border-left: 4px solid #ff9800; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Acnú’s Esfirraria e Pizzaria</h1>
+        <p>Sabor que abraça você!</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#pedir">Pedir Agora</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="container">
+        <section id="inicio" class="section">
+            <h2>Bem-vindo à Acnú’s!</h2>
+            <p>Esfirras abertas, pizzas artesanais e fritos deliciosos, preparados com amor e ingredientes selecionados. Aqui, cada mordida é uma experiência de sabor!</p>
+            <a href="#cardapio" class="btn">Conheça nosso Cardápio</a>
+        </section>
+
+        <section id="cardapio" class="section">
+            <h2>Nosso Cardápio</h2>
+            <div class="cardapio-item">
+                <strong>Esfirra de Carne - R$ 8,00</strong>
+                <p>Carne temperada com toque especial da casa.</p>
+            </div>
+            <div class="cardapio-item">
+                <strong>Esfirra de Frango c/ Catupiry - R$ 9,00</strong>
+                <p>Frango desfiado e cremoso, combinado com catupiry original.</p>
+            </div>
+            <div class="cardapio-item">
+                <strong>Pizza Marguerita - R$ 45,00</strong>
+                <p>Mussarela, tomate, manjericão fresco e orégano.</p>
+            </div>
+            <div class="cardapio-item">
+                <strong>Batata Frita - R$ 15,00</strong>
+                <p>Crocante por fora, macia por dentro.</p>
+            </div>
+            <a href="#pedir" class="btn">Faça seu Pedido</a>
+        </section>
+
+        <section id="sobre" class="section">
+            <h2>Sobre a Acnú’s</h2>
+            <p>Nascemos com a missão de transformar sua fome em felicidade. Nosso segredo? Ingredientes frescos, receitas tradicionais e muito carinho em cada preparo. Na Acnú’s, você se sente em casa!</p>
+        </section>
+
+        <section id="pedir" class="section">
+            <h2>Faça seu Pedido Agora!</h2>
+            <p>Escolha seus sabores favoritos e chame a gente no WhatsApp.</p>
+            <a href="https://wa.me/5522981814002" class="btn" target="_blank">Pedir pelo WhatsApp</a>
+        </section>
+
+        <section id="avaliacoes" class="section">
+            <h2>Avaliações dos Clientes</h2>
+            <div class="avaliacao">
+                <strong>Ana Paula:</strong> "Melhor esfirra da cidade! Massa leve e recheio perfeito!"
+            </div>
+            <div class="avaliacao">
+                <strong>João Silva:</strong> "Pizza maravilhosa, e a entrega foi super rápida!"
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <h2>Contato</h2>
+            <p>Telefone/WhatsApp: <a href="https://wa.me/5522981814002" target="_blank">(22) 98181-4002</a></p>
+            <p>Instagram: <a href="https://instagram.com/pizzaria_esfirraria_acnus" target="_blank">@pizzaria_esfirraria_acnus</a></p>
+            <p>Facebook: <a href="https://facebook.com/pizzaria_esfirraria_acnus" target="_blank">Pizzaria e Esfirraria Acnú’s</a></p>
+            <p>Endereço: Rua Sabor Feliz, 123 - Centro, Sua Cidade</p>
+        </section>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Acnú’s Esfirraria e Pizzaria. Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>
